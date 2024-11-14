@@ -9,6 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Update="STM32F446.svd">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="stm32f446xx.h">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
